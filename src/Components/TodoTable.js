@@ -7,7 +7,7 @@ function TodoTable(props) {
             <thead>
                 <th scope='col'>Number</th>
                 <th scope='col'>Todo</th>
-                <th scope='col'>Approximate time</th>
+                <th scope='col'>Approx time</th>
             </thead>
             <tbody>
                 <TodoRow todo={props.todos[0]} />
